@@ -1,12 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 .col-1, 
 .col-2, 
 .col-3, 
@@ -60,23 +57,68 @@ body{
 }
 header{
     box-shadow: 0px 1px 5px #ccc;
-    padding: 10px 0 20px 0;
+    padding: 20px 0 20px 0;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
  }
+.inlocation{
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+}
+.onlocation{
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;  
+}
+
+.btn-sign{
+    border: 1px solid #262626;
+    padding: 10px 15px;
+    color: #262626;
+    margin-right: 16px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.btn-register{
+    border: 1px solid #262626;
+    padding: 10px 15px;
+    background: #262626;
+    color: #ffffff;
+    margin-right: 27px;
+    border-radius: 2px;
+    font-size: 13px;
+}
 .container{
     width: 976px;
     margin-left: auto;
     margin-right: auto;  
 }
-
-
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logotype{
+    padding: 8px;
+}
+h2{
+    padding: 8px;
+}
 
 .search{
     width: 100%;
     border: 0;
-   
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.imgsearch{
+    margin-right: 15px;
 }
 section{
     display: flex;
@@ -85,13 +127,93 @@ section{
 }
 .searchItem {
     display: flex;
+    padding: 8px;
 }
 .restaurants{
     display: flex;
     flex-wrap: wrap;
 }
-.restaurant{
-    flex-basis: 33.333%
-    
+h2{
+    font-size: 22px;
 }
+.nameRestaurant{
+    font-size: 16px;
+    color: #1d1d1d;
+}
+.options{
+    font-size: 14px;
+    color: #626262;
+}
+.time {
+    font-size: 13px;
+    color: #1d1d1d;
+}
+
+
+
+li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+ul{
+    margin: 0;
+    padding: 0px;
+}
+
+
+footer{
+    color: #ffffff;
+    background: #262626;
+    padding: 40px 0;
+}
+.biglogo{
+    padding: 8px;
+}
+.info {
+    display: flex;
+   }
+
+select{
+    padding: 5px 10px;
+    background: rgba(216, 169, 169, 0.3);
+    border: 0px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+option{
+    background: #262626;
+    color: #ffffff;
+    border-radius: 3px;
+  
+}
+
+hr{
+    width: 100%;
+    margin: 30px 0;   
+}
+.copyright{
+    display: flex;
+    font-size: 11px;
+}
+.copyright a{
+    font-size: 11px;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+
+}
+
+.apps a{
+    padding: 10px;
+}
+
 
