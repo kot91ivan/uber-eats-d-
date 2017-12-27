@@ -3,6 +3,46 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.col-xs-1{
+    flex-basis: 8.3%;
+}
+.col-xs-2{
+    flex-basis: 16.6%;
+}
+.col-xs-3{
+    flex-basis: 24.9999%;
+}
+.col-xs-4{
+    flex-basis: 33.333%;
+}
+.col-xs-5{
+    flex-basis: 41.66%;
+}
+.col-xs-6{
+    flex-basis: 49.999%;
+}
+.col-xs-7{
+    flex-basis: 58.33%;
+}
+.col-xs-8{
+    flex-basis: 66.66%;
+}
+.col-xs-9{
+    flex-basis: 74.99%;
+}
+.col-xs-10{
+    flex-basis: 83.33%;
+}
+.col-xs-11{
+    flex-basis: 91.66%;
+}
+.col-xs-12{
+    flex-basis: 100%;
+}
+
+
+
+
 
 .col-1, 
 .col-2, 
@@ -84,6 +124,7 @@ header{
     margin-right: 16px;
     border-radius: 2px;
     font-size: 13px;
+    margin: 10px;
 }
 .btn-register{
     border: 1px solid #262626;
@@ -93,6 +134,7 @@ header{
     margin-right: 27px;
     border-radius: 2px;
     font-size: 13px;
+    margin: 10px;
 }
 .container{
     width: 976px;
@@ -179,8 +221,11 @@ footer{
    }
 
 select{
-    padding: 5px 10px;
-    background: rgba(216, 169, 169, 0.3);
+    padding: 5px 30px 5px 10px;
+    background-color: rgba(216, 169, 169, 0.3);
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
     border: 0px;
     color: #ffffff;
     border-radius: 3px;
@@ -215,5 +260,22 @@ hr{
 .apps a{
     padding: 10px;
 }
+.hashtag{
+    margin-top: 20px
+}
+.hashtag span{
+    color: #3d933b;
+}
 
+.social {
+    margin-top: 20px;
+}
+.social a{
+    padding: 5px;
+}
 
+@media (min-width: 768px) {
+    .col-md-3{
+        flex-basis: 24.9999%;
+    }
+}
