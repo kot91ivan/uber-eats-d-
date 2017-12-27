@@ -272,11 +272,22 @@ hr{
 .social a{
     padding: 5px;
 }
+
+.headeritem{
+    margin-top: 10px;
+}
+.headeritem input{
+    margin: 5px;
+}
+
 @media (min-width: 300px){
     .container{
         width: 350px;
         margin-left: auto;
         margin-right: auto; 
+    }
+    .header{
+        flex-direction: column;
     }
 }
 
@@ -287,6 +298,11 @@ hr{
         margin-left: auto;
         margin-right: auto; 
     }
+    .header{
+        flex-direction: row;
+    }
+   
+    
 }
 
 @media (min-width: 768px){
@@ -295,6 +311,8 @@ hr{
         margin-left: auto;
         margin-right: auto;   
     }
+    
+    
 } 
 
 @media (min-width: 991px){
